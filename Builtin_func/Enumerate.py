@@ -4,11 +4,15 @@
 
 # pos=0
 list=["anjali","rajni"]
+d1={
+    "name":"anjali",
+    "age":6
+}
 # for i in list:
 #     print(f"{pos} : {i} ")
 #     pos+=1
 
-for pos,name in enumerate(list):
+for pos,name in enumerate(d1):
     print(pos,name)
 
 

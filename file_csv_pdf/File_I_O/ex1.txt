@@ -1,0 +1,4 @@
+harshit,200
+anjali,10
+rajni,2
+yashika,10

@@ -1,7 +1,10 @@
 l=[1,2,11,22,33,4,5]
 t=(1,2,11,22,33,4,5)
-l.sort()
-print(sorted(t))
+# l.sort()
+# print(l)
+# t.sort()
+# print(t)
+# print(sorted(t))
 # print(l,t)
 
 # user=[
@@ -10,6 +13,7 @@ print(sorted(t))
 #     {"name":"komal","age":2},
 
 # ]
+# print(sorted(user,key=lambda obj:obj['age'],reverse=True))
 
 # print(sorted(user,key= lambda l:l['age'],reverse=True))
 # print(user)

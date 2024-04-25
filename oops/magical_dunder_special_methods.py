@@ -20,6 +20,7 @@ class Phone:
         return f"{self.name} {self.model} {self.price}"
     # ṛepr is used by dev for debogging and here the code is written 
     def __repr__(self):
+        # can create object by copy pasting this code 9-*
         return f"Phone(\'{self.name}\',\'{self.model}\',{self.price},\'{self.camera}\')"
     def __len__(self):
         return len(self.name)
@@ -28,6 +29,7 @@ class Phone:
 
 p1=Phone("nokia","nokia 22",20000,"18 MP")
 p2=Phone("Samsung","samsung 1200",40000,"15 MP")
+print(p1)
 print(p1+p2)
 # print(len(p1))
 
